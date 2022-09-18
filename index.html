@@ -14,7 +14,87 @@
     />
   </head>
   <body>
-    <p>abc</p>
+    <!-- Start header section -->
+    <section>
+      <nav class="navbar navbar-expand-md navbar-light bg-light headers">
+        <div class="container-fluid">
+          <img
+            src="./assets/img/logo/my.jpeg"
+            class="navbar-brand logos ml-5"
+            alt="logo"
+          />
+          <form class="d-flex mr-5">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div
+            class="collapse navbar-collapse d-flex justify-content-end"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Portfilo</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Projects
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">BCJ Project</a></li>
+                  <li><a class="dropdown-item" href="#">Backend-Project</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Database Project</a>
+                  </li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Freelance Project</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i>ABOUT ME</i> </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i>Contact Me</i> </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i>MyEducation</i> </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </section>
+    <!-- End header Section -->
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"

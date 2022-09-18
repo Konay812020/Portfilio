@@ -1,3 +1,10 @@
-p {
-  color: aqua;
+.body {
+  background-color: aquamarine;
+}
+.logos {
+  width: 40px;
+}
+
+.headers {
+  background-color: darkgrey;
 }
